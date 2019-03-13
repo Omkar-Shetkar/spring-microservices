@@ -8,7 +8,7 @@ import io.javabrains.ratingsdataservice.models.Rating;
 
 @RestController
 @RequestMapping("/ratingsdata")
-public class RatingResource {
+public class RatingsResource {
 
 	@RequestMapping("/movies/{movieId}")
 	public Rating getMovieRating(@PathVariable("movieId") String movieId) {
